@@ -2,7 +2,7 @@ require 'sinatra'
 require 'json'
 
 get '/' do
-  send_file 'home.html'
+  send_file 'public/home.html'
 end
 
 get '/ping' do
